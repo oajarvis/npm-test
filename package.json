@@ -1,11 +1,8 @@
 {
-  "name": "npm-test",
-  "version": "1.0.0",
+  "name": "@oajarvis/npm-test",
+  "version": "1.0.1",
   "description": "Testing deployment of npm package",
-  "author": {
-    "email": "oajarvis@sep.com",
-    "name": "Orry Jarvis"
-  },
+  "author": "Orry Jarvis <oajarvis@sep.com>",
   "main": "./lib/cjs/index.js",
   "scripts": {
     "test": "jest",
@@ -54,5 +51,17 @@
   "peerDependencies": {
     "graphql": "^16.6.0",
     "type-graphql": "^2.0.0-beta.1"
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oajarvis/npm-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oajarvis/npm-test/issues"
+  },
+  "homepage": "https://github.com/oajarvis/npm-test#readme"
 }
