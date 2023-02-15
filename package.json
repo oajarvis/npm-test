@@ -1,7 +1,7 @@
 {
   "name": "npm-test",
   "version": "1.0.0",
-  "description": "Testing deployment of private package",
+  "description": "Testing deployment of npm package",
   "author": {
     "email": "oajarvis@sep.com",
     "name": "Orry Jarvis"
